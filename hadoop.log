@@ -1,0 +1,482 @@
+2014-11-26 09:05:34,770 INFO  crawl.InjectorJob - InjectorJob: starting at 2014-11-26 09:05:34
+2014-11-26 09:05:34,770 INFO  crawl.InjectorJob - InjectorJob: Injecting urlDir: D:/eclipse4workspace/nutch2.2.1/branch-2.2.1/urls
+2014-11-26 09:05:35,254 INFO  crawl.InjectorJob - InjectorJob: Using class org.apache.gora.sql.store.SqlStore as the Gora storage class.
+2014-11-26 09:05:35,317 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-11-26 09:05:35,333 WARN  mapred.JobClient - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2014-11-26 09:05:35,349 WARN  snappy.LoadSnappy - Snappy native library not loaded
+2014-11-26 09:05:35,661 INFO  mapreduce.GoraRecordWriter - gora.buffer.write.limit = 10000
+2014-11-26 09:05:35,776 INFO  regex.RegexURLNormalizer - can't find rules for scope 'inject', using default
+2014-11-26 09:05:38,632 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
+2014-11-26 09:05:38,647 INFO  crawl.InjectorJob - InjectorJob: total number of urls rejected by filters: 0
+2014-11-26 09:05:38,647 INFO  crawl.InjectorJob - InjectorJob: total number of urls injected after normalization and filtering: 1
+2014-11-26 09:05:38,647 INFO  crawl.InjectorJob - Injector: finished at 2014-11-26 09:05:38, elapsed: 00:00:03
+2014-11-26 09:05:53,501 INFO  crawl.GeneratorJob - GeneratorJob: starting at 2014-11-26 09:05:53
+2014-11-26 09:05:53,501 INFO  crawl.GeneratorJob - GeneratorJob: Selecting best-scoring urls due for fetch.
+2014-11-26 09:05:53,501 INFO  crawl.GeneratorJob - GeneratorJob: starting
+2014-11-26 09:05:53,501 INFO  crawl.GeneratorJob - GeneratorJob: filtering: true
+2014-11-26 09:05:53,501 INFO  crawl.GeneratorJob - GeneratorJob: normalizing: true
+2014-11-26 09:05:53,501 INFO  crawl.GeneratorJob - GeneratorJob: topN: 1000
+2014-11-26 09:05:53,594 INFO  crawl.FetchScheduleFactory - Using FetchSchedule impl: org.apache.nutch.crawl.DefaultFetchSchedule
+2014-11-26 09:05:53,641 INFO  crawl.AbstractFetchSchedule - defaultInterval=2592000
+2014-11-26 09:05:53,641 INFO  crawl.AbstractFetchSchedule - maxInterval=7776000
+2014-11-26 09:05:54,109 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-11-26 09:05:54,109 WARN  mapred.JobClient - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2014-11-26 09:05:54,281 INFO  mapreduce.GoraRecordReader - gora.buffer.read.limit = 10000
+2014-11-26 09:05:54,406 INFO  crawl.FetchScheduleFactory - Using FetchSchedule impl: org.apache.nutch.crawl.DefaultFetchSchedule
+2014-11-26 09:05:54,406 INFO  crawl.AbstractFetchSchedule - defaultInterval=2592000
+2014-11-26 09:05:54,406 INFO  crawl.AbstractFetchSchedule - maxInterval=7776000
+2014-11-26 09:05:54,452 INFO  regex.RegexURLNormalizer - can't find rules for scope 'generate_host_count', using default
+2014-11-26 09:05:57,295 INFO  mapreduce.GoraRecordWriter - gora.buffer.write.limit = 10000
+2014-11-26 09:06:00,263 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
+2014-11-26 09:06:01,277 INFO  crawl.GeneratorJob - GeneratorJob: finished at 2014-11-26 09:06:01, time elapsed: 00:00:07
+2014-11-26 09:06:01,277 INFO  crawl.GeneratorJob - GeneratorJob: generated batch id: 1416963953-1996604011
+2014-11-26 09:06:11,088 INFO  fetcher.FetcherJob - FetcherJob: starting
+2014-11-26 09:06:11,088 INFO  fetcher.FetcherJob - FetcherJob: fetching all
+2014-11-26 09:06:11,104 WARN  fetcher.FetcherJob - Fetcher: Your 'http.agent.name' value should be listed first in 'http.robots.agents' property.
+2014-11-26 09:06:11,104 INFO  fetcher.FetcherJob - FetcherJob: threads: 50
+2014-11-26 09:06:11,104 INFO  fetcher.FetcherJob - FetcherJob: parsing: false
+2014-11-26 09:06:11,104 INFO  fetcher.FetcherJob - FetcherJob: resuming: false
+2014-11-26 09:06:11,104 INFO  fetcher.FetcherJob - FetcherJob : timelimit set for : -1
+2014-11-26 09:06:11,400 ERROR protocol.RobotRulesParser - Agent we advertise (nutch) not listed first in 'http.robots.agents' property!
+2014-11-26 09:06:11,400 INFO  http.Http - http.proxy.host = null
+2014-11-26 09:06:11,400 INFO  http.Http - http.proxy.port = 8080
+2014-11-26 09:06:11,400 INFO  http.Http - http.timeout = 10000
+2014-11-26 09:06:11,400 INFO  http.Http - http.content.limit = 65536
+2014-11-26 09:06:11,400 INFO  http.Http - http.agent = nutch/Nutch-2.2.1
+2014-11-26 09:06:11,400 INFO  http.Http - http.accept.language = ja-jp, en-us,en-gb,en;q=0.7,*;q=0.3
+2014-11-26 09:06:11,400 INFO  http.Http - http.accept = text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2014-11-26 09:06:11,900 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-11-26 09:06:11,900 WARN  mapred.JobClient - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2014-11-26 09:06:12,087 INFO  mapreduce.GoraRecordReader - gora.buffer.read.limit = 10000
+2014-11-26 09:06:15,101 INFO  mapreduce.GoraRecordWriter - gora.buffer.write.limit = 10000
+2014-11-26 09:06:15,132 INFO  fetcher.FetcherJob - Using queue mode : byHost
+2014-11-26 09:06:15,132 INFO  fetcher.FetcherJob - Fetcher: threads: 50
+2014-11-26 09:06:15,211 INFO  fetcher.FetcherJob - QueueFeeder finished: total 1 records. Hit by time limit :0
+2014-11-26 09:06:15,226 INFO  fetcher.FetcherJob - fetching http://bbs.ledth.com/showtopic-47829.aspx (queue crawl delay=100ms)
+2014-11-26 09:06:15,226 ERROR protocol.RobotRulesParser - Agent we advertise (nutch) not listed first in 'http.robots.agents' property!
+2014-11-26 09:06:15,226 INFO  http.Http - http.proxy.host = null
+2014-11-26 09:06:15,226 INFO  http.Http - http.proxy.port = 8080
+2014-11-26 09:06:15,226 INFO  http.Http - http.timeout = 10000
+2014-11-26 09:06:15,226 INFO  http.Http - http.content.limit = 65536
+2014-11-26 09:06:15,226 INFO  http.Http - http.agent = nutch/Nutch-2.2.1
+2014-11-26 09:06:15,226 INFO  http.Http - http.accept.language = ja-jp, en-us,en-gb,en;q=0.7,*;q=0.3
+2014-11-26 09:06:15,226 INFO  http.Http - http.accept = text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2014-11-26 09:06:15,226 INFO  fetcher.FetcherJob - -finishing thread FetcherThread1, activeThreads=1
+2014-11-26 09:06:15,226 INFO  fetcher.FetcherJob - -finishing thread FetcherThread2, activeThreads=1
+2014-11-26 09:06:15,226 INFO  fetcher.FetcherJob - -finishing thread FetcherThread5, activeThreads=1
+2014-11-26 09:06:15,226 INFO  fetcher.FetcherJob - -finishing thread FetcherThread6, activeThreads=1
+2014-11-26 09:06:15,226 INFO  fetcher.FetcherJob - -finishing thread FetcherThread9, activeThreads=1
+2014-11-26 09:06:15,226 INFO  fetcher.FetcherJob - -finishing thread FetcherThread10, activeThreads=1
+2014-11-26 09:06:15,226 INFO  fetcher.FetcherJob - -finishing thread FetcherThread13, activeThreads=1
+2014-11-26 09:06:15,226 INFO  fetcher.FetcherJob - -finishing thread FetcherThread14, activeThreads=1
+2014-11-26 09:06:15,226 INFO  fetcher.FetcherJob - -finishing thread FetcherThread17, activeThreads=1
+2014-11-26 09:06:15,226 INFO  fetcher.FetcherJob - -finishing thread FetcherThread18, activeThreads=1
+2014-11-26 09:06:15,242 INFO  fetcher.FetcherJob - -finishing thread FetcherThread29, activeThreads=1
+2014-11-26 09:06:15,226 INFO  fetcher.FetcherJob - -finishing thread FetcherThread26, activeThreads=1
+2014-11-26 09:06:15,258 INFO  fetcher.FetcherJob - -finishing thread FetcherThread32, activeThreads=1
+2014-11-26 09:06:15,258 INFO  fetcher.FetcherJob - -finishing thread FetcherThread31, activeThreads=1
+2014-11-26 09:06:15,258 INFO  fetcher.FetcherJob - -finishing thread FetcherThread28, activeThreads=1
+2014-11-26 09:06:15,258 INFO  fetcher.FetcherJob - -finishing thread FetcherThread27, activeThreads=1
+2014-11-26 09:06:15,258 INFO  fetcher.FetcherJob - -finishing thread FetcherThread24, activeThreads=1
+2014-11-26 09:06:15,258 INFO  fetcher.FetcherJob - -finishing thread FetcherThread23, activeThreads=1
+2014-11-26 09:06:15,258 INFO  fetcher.FetcherJob - -finishing thread FetcherThread20, activeThreads=1
+2014-11-26 09:06:15,258 INFO  fetcher.FetcherJob - -finishing thread FetcherThread19, activeThreads=1
+2014-11-26 09:06:15,258 INFO  fetcher.FetcherJob - -finishing thread FetcherThread16, activeThreads=1
+2014-11-26 09:06:15,226 INFO  fetcher.FetcherJob - -finishing thread FetcherThread25, activeThreads=1
+2014-11-26 09:06:15,258 INFO  fetcher.FetcherJob - -finishing thread FetcherThread15, activeThreads=1
+2014-11-26 09:06:15,226 INFO  fetcher.FetcherJob - -finishing thread FetcherThread22, activeThreads=1
+2014-11-26 09:06:15,226 INFO  fetcher.FetcherJob - -finishing thread FetcherThread21, activeThreads=1
+2014-11-26 09:06:15,258 INFO  fetcher.FetcherJob - -finishing thread FetcherThread33, activeThreads=1
+2014-11-26 09:06:15,258 INFO  fetcher.FetcherJob - -finishing thread FetcherThread3, activeThreads=1
+2014-11-26 09:06:15,258 INFO  fetcher.FetcherJob - -finishing thread FetcherThread34, activeThreads=1
+2014-11-26 09:06:15,258 INFO  fetcher.FetcherJob - -finishing thread FetcherThread7, activeThreads=1
+2014-11-26 09:06:15,258 INFO  fetcher.FetcherJob - -finishing thread FetcherThread37, activeThreads=1
+2014-11-26 09:06:15,258 INFO  fetcher.FetcherJob - -finishing thread FetcherThread4, activeThreads=2
+2014-11-26 09:06:15,258 INFO  fetcher.FetcherJob - -finishing thread FetcherThread38, activeThreads=1
+2014-11-26 09:06:15,258 INFO  fetcher.FetcherJob - -finishing thread FetcherThread8, activeThreads=1
+2014-11-26 09:06:15,258 INFO  fetcher.FetcherJob - -finishing thread FetcherThread30, activeThreads=1
+2014-11-26 09:06:15,258 INFO  fetcher.FetcherJob - -finishing thread FetcherThread41, activeThreads=1
+2014-11-26 09:06:15,258 INFO  fetcher.FetcherJob - -finishing thread FetcherThread11, activeThreads=2
+2014-11-26 09:06:15,258 INFO  fetcher.FetcherJob - -finishing thread FetcherThread42, activeThreads=1
+2014-11-26 09:06:15,258 INFO  fetcher.FetcherJob - -finishing thread FetcherThread12, activeThreads=1
+2014-11-26 09:06:15,258 INFO  fetcher.FetcherJob - -finishing thread FetcherThread39, activeThreads=1
+2014-11-26 09:06:15,258 INFO  fetcher.FetcherJob - -finishing thread FetcherThread36, activeThreads=2
+2014-11-26 09:06:15,258 INFO  fetcher.FetcherJob - -finishing thread FetcherThread35, activeThreads=1
+2014-11-26 09:06:15,258 INFO  fetcher.FetcherJob - -finishing thread FetcherThread40, activeThreads=1
+2014-11-26 09:06:15,258 INFO  fetcher.FetcherJob - -finishing thread FetcherThread46, activeThreads=1
+2014-11-26 09:06:15,258 INFO  fetcher.FetcherJob - -finishing thread FetcherThread49, activeThreads=1
+2014-11-26 09:06:15,258 INFO  fetcher.FetcherJob - Fetcher: throughput threshold: -1
+2014-11-26 09:06:15,258 INFO  fetcher.FetcherJob - -finishing thread FetcherThread45, activeThreads=1
+2014-11-26 09:06:15,258 INFO  fetcher.FetcherJob - Fetcher: throughput threshold sequence: 5
+2014-11-26 09:06:15,258 INFO  fetcher.FetcherJob - -finishing thread FetcherThread44, activeThreads=1
+2014-11-26 09:06:15,258 INFO  fetcher.FetcherJob - -finishing thread FetcherThread43, activeThreads=1
+2014-11-26 09:06:15,258 INFO  fetcher.FetcherJob - -finishing thread FetcherThread47, activeThreads=1
+2014-11-26 09:06:15,258 INFO  fetcher.FetcherJob - -finishing thread FetcherThread48, activeThreads=1
+2014-11-26 09:06:15,944 INFO  fetcher.FetcherJob - -finishing thread FetcherThread0, activeThreads=0
+2014-11-26 09:06:20,269 INFO  fetcher.FetcherJob - 0/0 spinwaiting/active, 1 pages, 0 errors, 0.2 0 pages/s, 102 102 kb/s, 0 URLs in 0 queues
+2014-11-26 09:06:20,269 INFO  fetcher.FetcherJob - -activeThreads=0
+2014-11-26 09:06:21,067 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
+2014-11-26 09:06:21,082 INFO  fetcher.FetcherJob - FetcherJob: done
+2014-11-26 09:07:14,691 INFO  parse.ParserJob - ParserJob: starting
+2014-11-26 09:07:14,691 INFO  parse.ParserJob - ParserJob: resuming:	false
+2014-11-26 09:07:14,691 INFO  parse.ParserJob - ParserJob: forced reparse:	false
+2014-11-26 09:07:14,691 INFO  parse.ParserJob - ParserJob: parsing all
+2014-11-26 09:07:15,285 INFO  crawl.SignatureFactory - Using Signature impl: org.apache.nutch.crawl.MD5Signature
+2014-11-26 09:07:15,769 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-11-26 09:07:15,769 WARN  mapred.JobClient - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2014-11-26 09:07:15,956 INFO  mapreduce.GoraRecordReader - gora.buffer.read.limit = 10000
+2014-11-26 09:07:15,971 INFO  mapreduce.GoraRecordWriter - gora.buffer.write.limit = 10000
+2014-11-26 09:07:16,018 INFO  crawl.SignatureFactory - Using Signature impl: org.apache.nutch.crawl.MD5Signature
+2014-11-26 09:07:16,081 INFO  parse.ParserJob - Parsing http://bbs.ledth.com/showtopic-47829.aspx
+2014-11-26 09:07:16,316 INFO  dao.SDUtils - url:jdbc:postgresql://192.168.0.144:5432/postgres
+2014-11-26 09:07:16,316 INFO  dao.SDUtils - usernamepostgres
+2014-11-26 09:07:16,316 INFO  dao.SDUtils - passwd123456
+2014-11-26 09:07:16,721 INFO  dao.SDUtils - url:jdbc:postgresql://192.168.0.144:5432/postgres
+2014-11-26 09:07:16,721 INFO  dao.SDUtils - usernamepostgres
+2014-11-26 09:07:16,721 INFO  dao.SDUtils - passwd123456
+2014-11-26 09:07:16,785 INFO  mortbay.log - Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2014-11-26 09:07:16,785 INFO  mortbay.log - 2014-11-26 09:07:16:入库成功http://bbs.ledth.com/showtopic-47829.aspx
+2014-11-26 09:07:16,785 INFO  regex.RegexURLNormalizer - can't find rules for scope 'outlink', using default
+2014-11-26 09:07:18,924 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
+2014-11-26 09:07:19,907 INFO  parse.ParserJob - ParserJob: success
+2014-11-26 09:07:27,420 INFO  crawl.DbUpdaterJob - DbUpdaterJob: starting
+2014-11-26 09:07:28,013 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-11-26 09:07:28,013 WARN  mapred.JobClient - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2014-11-26 09:07:28,169 INFO  mapreduce.GoraRecordReader - gora.buffer.read.limit = 10000
+2014-11-26 09:07:31,184 INFO  mapreduce.GoraRecordWriter - gora.buffer.write.limit = 10000
+2014-11-26 09:07:31,184 INFO  crawl.FetchScheduleFactory - Using FetchSchedule impl: org.apache.nutch.crawl.DefaultFetchSchedule
+2014-11-26 09:07:31,184 INFO  crawl.AbstractFetchSchedule - defaultInterval=2592000
+2014-11-26 09:07:31,184 INFO  crawl.AbstractFetchSchedule - maxInterval=7776000
+2014-11-26 09:07:34,152 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
+2014-11-26 09:07:35,166 INFO  crawl.DbUpdaterJob - DbUpdaterJob: done
+2014-11-26 09:08:02,681 INFO  crawl.InjectorJob - InjectorJob: starting at 2014-11-26 09:08:02
+2014-11-26 09:08:02,681 INFO  crawl.InjectorJob - InjectorJob: Injecting urlDir: D:/eclipse4workspace/nutch2.2.1/branch-2.2.1/urls
+2014-11-26 09:08:03,167 INFO  crawl.InjectorJob - InjectorJob: Using class org.apache.gora.sql.store.SqlStore as the Gora storage class.
+2014-11-26 09:08:03,182 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-11-26 09:08:03,182 WARN  mapred.JobClient - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2014-11-26 09:08:03,198 WARN  snappy.LoadSnappy - Snappy native library not loaded
+2014-11-26 09:08:03,323 INFO  mapreduce.GoraRecordWriter - gora.buffer.write.limit = 10000
+2014-11-26 09:08:03,432 INFO  regex.RegexURLNormalizer - can't find rules for scope 'inject', using default
+2014-11-26 09:08:06,304 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
+2014-11-26 09:08:06,320 INFO  crawl.InjectorJob - InjectorJob: total number of urls rejected by filters: 0
+2014-11-26 09:08:06,320 INFO  crawl.InjectorJob - InjectorJob: total number of urls injected after normalization and filtering: 1
+2014-11-26 09:08:06,320 INFO  crawl.InjectorJob - Injector: finished at 2014-11-26 09:08:06, elapsed: 00:00:03
+2014-11-26 09:08:14,249 INFO  crawl.GeneratorJob - GeneratorJob: starting at 2014-11-26 09:08:14
+2014-11-26 09:08:14,249 INFO  crawl.GeneratorJob - GeneratorJob: Selecting best-scoring urls due for fetch.
+2014-11-26 09:08:14,249 INFO  crawl.GeneratorJob - GeneratorJob: starting
+2014-11-26 09:08:14,249 INFO  crawl.GeneratorJob - GeneratorJob: filtering: true
+2014-11-26 09:08:14,249 INFO  crawl.GeneratorJob - GeneratorJob: normalizing: true
+2014-11-26 09:08:14,249 INFO  crawl.GeneratorJob - GeneratorJob: topN: 1000
+2014-11-26 09:08:14,343 INFO  crawl.FetchScheduleFactory - Using FetchSchedule impl: org.apache.nutch.crawl.DefaultFetchSchedule
+2014-11-26 09:08:14,343 INFO  crawl.AbstractFetchSchedule - defaultInterval=2592000
+2014-11-26 09:08:14,343 INFO  crawl.AbstractFetchSchedule - maxInterval=7776000
+2014-11-26 09:08:14,780 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-11-26 09:08:14,795 WARN  mapred.JobClient - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2014-11-26 09:08:14,982 INFO  mapreduce.GoraRecordReader - gora.buffer.read.limit = 10000
+2014-11-26 09:08:15,092 INFO  crawl.FetchScheduleFactory - Using FetchSchedule impl: org.apache.nutch.crawl.DefaultFetchSchedule
+2014-11-26 09:08:15,092 INFO  crawl.AbstractFetchSchedule - defaultInterval=2592000
+2014-11-26 09:08:15,092 INFO  crawl.AbstractFetchSchedule - maxInterval=7776000
+2014-11-26 09:08:15,123 INFO  regex.RegexURLNormalizer - can't find rules for scope 'generate_host_count', using default
+2014-11-26 09:08:17,981 INFO  mapreduce.GoraRecordWriter - gora.buffer.write.limit = 10000
+2014-11-26 09:08:20,934 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
+2014-11-26 09:08:20,965 INFO  crawl.GeneratorJob - GeneratorJob: finished at 2014-11-26 09:08:20, time elapsed: 00:00:06
+2014-11-26 09:08:20,965 INFO  crawl.GeneratorJob - GeneratorJob: generated batch id: 1416964094-1097874466
+2014-11-26 09:08:30,677 INFO  fetcher.FetcherJob - FetcherJob: starting
+2014-11-26 09:08:30,677 INFO  fetcher.FetcherJob - FetcherJob: fetching all
+2014-11-26 09:08:30,693 WARN  fetcher.FetcherJob - Fetcher: Your 'http.agent.name' value should be listed first in 'http.robots.agents' property.
+2014-11-26 09:08:30,693 INFO  fetcher.FetcherJob - FetcherJob: threads: 50
+2014-11-26 09:08:30,693 INFO  fetcher.FetcherJob - FetcherJob: parsing: false
+2014-11-26 09:08:30,693 INFO  fetcher.FetcherJob - FetcherJob: resuming: false
+2014-11-26 09:08:30,693 INFO  fetcher.FetcherJob - FetcherJob : timelimit set for : -1
+2014-11-26 09:08:30,901 ERROR protocol.RobotRulesParser - Agent we advertise (nutch) not listed first in 'http.robots.agents' property!
+2014-11-26 09:08:30,901 INFO  http.Http - http.proxy.host = null
+2014-11-26 09:08:30,901 INFO  http.Http - http.proxy.port = 8080
+2014-11-26 09:08:30,901 INFO  http.Http - http.timeout = 10000
+2014-11-26 09:08:30,901 INFO  http.Http - http.content.limit = 65536
+2014-11-26 09:08:30,901 INFO  http.Http - http.agent = nutch/Nutch-2.2.1
+2014-11-26 09:08:30,901 INFO  http.Http - http.accept.language = ja-jp, en-us,en-gb,en;q=0.7,*;q=0.3
+2014-11-26 09:08:30,901 INFO  http.Http - http.accept = text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2014-11-26 09:08:31,322 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-11-26 09:08:31,322 WARN  mapred.JobClient - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2014-11-26 09:08:31,509 INFO  mapreduce.GoraRecordReader - gora.buffer.read.limit = 10000
+2014-11-26 09:08:34,506 INFO  mapreduce.GoraRecordWriter - gora.buffer.write.limit = 10000
+2014-11-26 09:08:34,506 INFO  fetcher.FetcherJob - Using queue mode : byHost
+2014-11-26 09:08:34,506 INFO  fetcher.FetcherJob - Fetcher: threads: 50
+2014-11-26 09:08:34,506 INFO  fetcher.FetcherJob - QueueFeeder finished: total 1 records. Hit by time limit :0
+2014-11-26 09:08:34,522 INFO  fetcher.FetcherJob - fetching http://bbs.ledth.com/showtopic-47829.aspx (queue crawl delay=100ms)
+2014-11-26 09:08:34,522 ERROR protocol.RobotRulesParser - Agent we advertise (nutch) not listed first in 'http.robots.agents' property!
+2014-11-26 09:08:34,522 INFO  http.Http - http.proxy.host = null
+2014-11-26 09:08:34,522 INFO  http.Http - http.proxy.port = 8080
+2014-11-26 09:08:34,522 INFO  http.Http - http.timeout = 10000
+2014-11-26 09:08:34,522 INFO  http.Http - http.content.limit = 65536
+2014-11-26 09:08:34,522 INFO  http.Http - http.agent = nutch/Nutch-2.2.1
+2014-11-26 09:08:34,522 INFO  http.Http - http.accept.language = ja-jp, en-us,en-gb,en;q=0.7,*;q=0.3
+2014-11-26 09:08:34,522 INFO  http.Http - http.accept = text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2014-11-26 09:08:34,522 INFO  fetcher.FetcherJob - Fetcher: throughput threshold: -1
+2014-11-26 09:08:34,522 INFO  fetcher.FetcherJob - Fetcher: throughput threshold sequence: 5
+2014-11-26 09:08:34,522 INFO  fetcher.FetcherJob - -finishing thread FetcherThread3, activeThreads=1
+2014-11-26 09:08:34,522 INFO  fetcher.FetcherJob - -finishing thread FetcherThread4, activeThreads=1
+2014-11-26 09:08:34,522 INFO  fetcher.FetcherJob - -finishing thread FetcherThread1, activeThreads=1
+2014-11-26 09:08:34,522 INFO  fetcher.FetcherJob - -finishing thread FetcherThread7, activeThreads=1
+2014-11-26 09:08:34,522 INFO  fetcher.FetcherJob - -finishing thread FetcherThread2, activeThreads=2
+2014-11-26 09:08:34,522 INFO  fetcher.FetcherJob - -finishing thread FetcherThread8, activeThreads=1
+2014-11-26 09:08:34,522 INFO  fetcher.FetcherJob - -finishing thread FetcherThread5, activeThreads=1
+2014-11-26 09:08:34,522 INFO  fetcher.FetcherJob - -finishing thread FetcherThread11, activeThreads=1
+2014-11-26 09:08:34,522 INFO  fetcher.FetcherJob - -finishing thread FetcherThread12, activeThreads=1
+2014-11-26 09:08:34,522 INFO  fetcher.FetcherJob - -finishing thread FetcherThread9, activeThreads=1
+2014-11-26 09:08:34,539 INFO  fetcher.FetcherJob - -finishing thread FetcherThread48, activeThreads=1
+2014-11-26 09:08:34,539 INFO  fetcher.FetcherJob - -finishing thread FetcherThread14, activeThreads=1
+2014-11-26 09:08:34,539 INFO  fetcher.FetcherJob - -finishing thread FetcherThread47, activeThreads=1
+2014-11-26 09:08:34,522 INFO  fetcher.FetcherJob - -finishing thread FetcherThread6, activeThreads=1
+2014-11-26 09:08:34,539 INFO  fetcher.FetcherJob - -finishing thread FetcherThread44, activeThreads=1
+2014-11-26 09:08:34,539 INFO  fetcher.FetcherJob - -finishing thread FetcherThread21, activeThreads=1
+2014-11-26 09:08:34,539 INFO  fetcher.FetcherJob - -finishing thread FetcherThread17, activeThreads=1
+2014-11-26 09:08:34,539 INFO  fetcher.FetcherJob - -finishing thread FetcherThread40, activeThreads=1
+2014-11-26 09:08:34,539 INFO  fetcher.FetcherJob - -finishing thread FetcherThread43, activeThreads=1
+2014-11-26 09:08:34,539 INFO  fetcher.FetcherJob - -finishing thread FetcherThread18, activeThreads=1
+2014-11-26 09:08:34,539 INFO  fetcher.FetcherJob - -finishing thread FetcherThread22, activeThreads=1
+2014-11-26 09:08:34,539 INFO  fetcher.FetcherJob - -finishing thread FetcherThread25, activeThreads=1
+2014-11-26 09:08:34,539 INFO  fetcher.FetcherJob - -finishing thread FetcherThread26, activeThreads=1
+2014-11-26 09:08:34,539 INFO  fetcher.FetcherJob - -finishing thread FetcherThread29, activeThreads=1
+2014-11-26 09:08:34,539 INFO  fetcher.FetcherJob - -finishing thread FetcherThread33, activeThreads=1
+2014-11-26 09:08:34,539 INFO  fetcher.FetcherJob - -finishing thread FetcherThread30, activeThreads=1
+2014-11-26 09:08:34,539 INFO  fetcher.FetcherJob - -finishing thread FetcherThread34, activeThreads=1
+2014-11-26 09:08:34,539 INFO  fetcher.FetcherJob - -finishing thread FetcherThread37, activeThreads=1
+2014-11-26 09:08:34,539 INFO  fetcher.FetcherJob - -finishing thread FetcherThread38, activeThreads=1
+2014-11-26 09:08:34,539 INFO  fetcher.FetcherJob - -finishing thread FetcherThread42, activeThreads=1
+2014-11-26 09:08:34,539 INFO  fetcher.FetcherJob - -finishing thread FetcherThread45, activeThreads=1
+2014-11-26 09:08:34,539 INFO  fetcher.FetcherJob - -finishing thread FetcherThread41, activeThreads=1
+2014-11-26 09:08:34,539 INFO  fetcher.FetcherJob - -finishing thread FetcherThread49, activeThreads=1
+2014-11-26 09:08:34,539 INFO  fetcher.FetcherJob - -finishing thread FetcherThread13, activeThreads=2
+2014-11-26 09:08:34,522 INFO  fetcher.FetcherJob - -finishing thread FetcherThread16, activeThreads=2
+2014-11-26 09:08:34,522 INFO  fetcher.FetcherJob - -finishing thread FetcherThread10, activeThreads=1
+2014-11-26 09:08:34,522 INFO  fetcher.FetcherJob - -finishing thread FetcherThread15, activeThreads=1
+2014-11-26 09:08:34,539 INFO  fetcher.FetcherJob - -finishing thread FetcherThread46, activeThreads=2
+2014-11-26 09:08:34,539 INFO  fetcher.FetcherJob - -finishing thread FetcherThread19, activeThreads=1
+2014-11-26 09:08:34,539 INFO  fetcher.FetcherJob - -finishing thread FetcherThread23, activeThreads=1
+2014-11-26 09:08:34,539 INFO  fetcher.FetcherJob - -finishing thread FetcherThread24, activeThreads=1
+2014-11-26 09:08:34,539 INFO  fetcher.FetcherJob - -finishing thread FetcherThread20, activeThreads=1
+2014-11-26 09:08:34,539 INFO  fetcher.FetcherJob - -finishing thread FetcherThread27, activeThreads=2
+2014-11-26 09:08:34,539 INFO  fetcher.FetcherJob - -finishing thread FetcherThread28, activeThreads=1
+2014-11-26 09:08:34,539 INFO  fetcher.FetcherJob - -finishing thread FetcherThread32, activeThreads=1
+2014-11-26 09:08:34,539 INFO  fetcher.FetcherJob - -finishing thread FetcherThread35, activeThreads=1
+2014-11-26 09:08:34,539 INFO  fetcher.FetcherJob - -finishing thread FetcherThread36, activeThreads=1
+2014-11-26 09:08:34,539 INFO  fetcher.FetcherJob - -finishing thread FetcherThread31, activeThreads=2
+2014-11-26 09:08:34,539 INFO  fetcher.FetcherJob - -finishing thread FetcherThread39, activeThreads=1
+2014-11-26 09:08:38,317 INFO  fetcher.FetcherJob - -finishing thread FetcherThread0, activeThreads=0
+2014-11-26 09:08:39,535 INFO  fetcher.FetcherJob - 0/0 spinwaiting/active, 1 pages, 0 errors, 0.2 0 pages/s, 102 102 kb/s, 0 URLs in 0 queues
+2014-11-26 09:08:39,535 INFO  fetcher.FetcherJob - -activeThreads=0
+2014-11-26 09:08:40,488 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
+2014-11-26 09:08:40,504 INFO  fetcher.FetcherJob - FetcherJob: done
+2014-11-26 09:08:48,171 INFO  parse.ParserJob - ParserJob: starting
+2014-11-26 09:08:48,171 INFO  parse.ParserJob - ParserJob: resuming:	false
+2014-11-26 09:08:48,171 INFO  parse.ParserJob - ParserJob: forced reparse:	false
+2014-11-26 09:08:48,171 INFO  parse.ParserJob - ParserJob: parsing all
+2014-11-26 09:08:48,390 INFO  crawl.SignatureFactory - Using Signature impl: org.apache.nutch.crawl.MD5Signature
+2014-11-26 09:08:48,813 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-11-26 09:08:48,813 WARN  mapred.JobClient - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2014-11-26 09:08:48,969 INFO  mapreduce.GoraRecordReader - gora.buffer.read.limit = 10000
+2014-11-26 09:08:49,000 INFO  mapreduce.GoraRecordWriter - gora.buffer.write.limit = 10000
+2014-11-26 09:08:49,000 INFO  crawl.SignatureFactory - Using Signature impl: org.apache.nutch.crawl.MD5Signature
+2014-11-26 09:08:49,063 INFO  parse.ParserJob - Parsing http://bbs.ledth.com/showtopic-47829.aspx
+2014-11-26 09:08:49,239 INFO  dao.SDUtils - url:jdbc:postgresql://192.168.0.144:5432/postgres
+2014-11-26 09:08:49,239 INFO  dao.SDUtils - usernamepostgres
+2014-11-26 09:08:49,239 INFO  dao.SDUtils - passwd123456
+2014-11-26 09:08:49,536 INFO  dao.SDUtils - url:jdbc:postgresql://192.168.0.144:5432/postgres
+2014-11-26 09:08:49,536 INFO  dao.SDUtils - usernamepostgres
+2014-11-26 09:08:49,536 INFO  dao.SDUtils - passwd123456
+2014-11-26 09:08:49,598 INFO  mortbay.log - Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2014-11-26 09:08:49,598 INFO  mortbay.log - 2014-11-26 09:08:49:入库成功http://bbs.ledth.com/showtopic-47829.aspx
+2014-11-26 09:08:49,598 INFO  regex.RegexURLNormalizer - can't find rules for scope 'outlink', using default
+2014-11-26 09:08:51,924 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
+2014-11-26 09:08:52,924 INFO  parse.ParserJob - ParserJob: success
+2014-11-26 09:09:08,976 INFO  crawl.DbUpdaterJob - DbUpdaterJob: starting
+2014-11-26 09:09:09,600 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-11-26 09:09:09,615 WARN  mapred.JobClient - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2014-11-26 09:09:09,803 INFO  mapreduce.GoraRecordReader - gora.buffer.read.limit = 10000
+2014-11-26 09:09:12,805 INFO  mapreduce.GoraRecordWriter - gora.buffer.write.limit = 10000
+2014-11-26 09:09:12,805 INFO  crawl.FetchScheduleFactory - Using FetchSchedule impl: org.apache.nutch.crawl.DefaultFetchSchedule
+2014-11-26 09:09:12,805 INFO  crawl.AbstractFetchSchedule - defaultInterval=2592000
+2014-11-26 09:09:12,805 INFO  crawl.AbstractFetchSchedule - maxInterval=7776000
+2014-11-26 09:09:15,770 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
+2014-11-26 09:09:15,785 INFO  crawl.DbUpdaterJob - DbUpdaterJob: done
+2014-11-26 09:09:28,015 INFO  crawl.DbUpdaterJob - DbUpdaterJob: starting
+2014-11-26 09:09:28,592 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-11-26 09:09:28,592 WARN  mapred.JobClient - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2014-11-26 09:09:28,748 INFO  mapreduce.GoraRecordReader - gora.buffer.read.limit = 10000
+2014-11-26 09:09:31,762 INFO  mapreduce.GoraRecordWriter - gora.buffer.write.limit = 10000
+2014-11-26 09:09:31,762 INFO  crawl.FetchScheduleFactory - Using FetchSchedule impl: org.apache.nutch.crawl.DefaultFetchSchedule
+2014-11-26 09:09:31,762 INFO  crawl.AbstractFetchSchedule - defaultInterval=2592000
+2014-11-26 09:09:31,762 INFO  crawl.AbstractFetchSchedule - maxInterval=7776000
+2014-11-26 09:09:34,730 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
+2014-11-26 09:09:35,744 INFO  crawl.DbUpdaterJob - DbUpdaterJob: done
+2014-11-26 09:47:26,232 INFO  crawl.DbUpdaterJob - DbUpdaterJob: starting
+2014-11-26 09:47:33,040 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-11-26 09:47:33,056 WARN  mapred.JobClient - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2014-11-26 09:47:33,259 INFO  mapreduce.GoraRecordReader - gora.buffer.read.limit = 10000
+2014-11-26 09:47:36,272 INFO  mapreduce.GoraRecordWriter - gora.buffer.write.limit = 10000
+2014-11-26 09:47:36,272 INFO  crawl.FetchScheduleFactory - Using FetchSchedule impl: org.apache.nutch.crawl.DefaultFetchSchedule
+2014-11-26 09:47:36,272 INFO  crawl.AbstractFetchSchedule - defaultInterval=2592000
+2014-11-26 09:47:36,272 INFO  crawl.AbstractFetchSchedule - maxInterval=7776000
+2014-11-26 09:47:39,238 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
+2014-11-26 10:33:27,323 INFO  crawl.InjectorJob - InjectorJob: starting at 2014-11-26 10:33:27
+2014-11-26 10:33:27,323 INFO  crawl.InjectorJob - InjectorJob: Injecting urlDir: D:/eclipse4workspace/nutch2.2.1/branch-2.2.1/urls
+2014-11-26 10:33:27,806 INFO  crawl.InjectorJob - InjectorJob: Using class org.apache.gora.sql.store.SqlStore as the Gora storage class.
+2014-11-26 10:33:27,822 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-11-26 10:33:27,838 WARN  mapred.JobClient - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2014-11-26 10:33:27,963 WARN  snappy.LoadSnappy - Snappy native library not loaded
+2014-11-26 10:33:28,119 INFO  mapreduce.GoraRecordWriter - gora.buffer.write.limit = 10000
+2014-11-26 10:33:28,369 INFO  regex.RegexURLNormalizer - can't find rules for scope 'inject', using default
+2014-11-26 10:33:31,099 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
+2014-11-26 10:33:32,113 INFO  crawl.InjectorJob - InjectorJob: total number of urls rejected by filters: 0
+2014-11-26 10:33:32,113 INFO  crawl.InjectorJob - InjectorJob: total number of urls injected after normalization and filtering: 1
+2014-11-26 10:33:32,129 INFO  crawl.InjectorJob - Injector: finished at 2014-11-26 10:33:32, elapsed: 00:00:04
+2014-11-26 10:34:35,248 INFO  crawl.GeneratorJob - GeneratorJob: starting at 2014-11-26 10:34:35
+2014-11-26 10:34:35,248 INFO  crawl.GeneratorJob - GeneratorJob: Selecting best-scoring urls due for fetch.
+2014-11-26 10:34:35,248 INFO  crawl.GeneratorJob - GeneratorJob: starting
+2014-11-26 10:34:35,248 INFO  crawl.GeneratorJob - GeneratorJob: filtering: true
+2014-11-26 10:34:35,248 INFO  crawl.GeneratorJob - GeneratorJob: normalizing: true
+2014-11-26 10:34:35,248 INFO  crawl.GeneratorJob - GeneratorJob: topN: 1000
+2014-11-26 10:34:35,342 INFO  crawl.FetchScheduleFactory - Using FetchSchedule impl: org.apache.nutch.crawl.DefaultFetchSchedule
+2014-11-26 10:34:35,342 INFO  crawl.AbstractFetchSchedule - defaultInterval=2592000
+2014-11-26 10:34:35,342 INFO  crawl.AbstractFetchSchedule - maxInterval=7776000
+2014-11-26 10:34:35,826 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-11-26 10:34:35,841 WARN  mapred.JobClient - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2014-11-26 10:34:36,013 INFO  mapreduce.GoraRecordReader - gora.buffer.read.limit = 10000
+2014-11-26 10:34:36,138 INFO  crawl.FetchScheduleFactory - Using FetchSchedule impl: org.apache.nutch.crawl.DefaultFetchSchedule
+2014-11-26 10:34:36,138 INFO  crawl.AbstractFetchSchedule - defaultInterval=2592000
+2014-11-26 10:34:36,138 INFO  crawl.AbstractFetchSchedule - maxInterval=7776000
+2014-11-26 10:34:36,184 INFO  regex.RegexURLNormalizer - can't find rules for scope 'generate_host_count', using default
+2014-11-26 10:34:38,992 INFO  mapreduce.GoraRecordWriter - gora.buffer.write.limit = 10000
+2014-11-26 10:34:41,972 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
+2014-11-26 10:34:42,019 INFO  crawl.GeneratorJob - GeneratorJob: finished at 2014-11-26 10:34:42, time elapsed: 00:00:06
+2014-11-26 10:34:42,019 INFO  crawl.GeneratorJob - GeneratorJob: generated batch id: 1416969275-1907046418
+2014-11-26 10:34:48,464 INFO  fetcher.FetcherJob - FetcherJob: starting
+2014-11-26 10:34:48,464 INFO  fetcher.FetcherJob - FetcherJob: fetching all
+2014-11-26 10:34:48,464 WARN  fetcher.FetcherJob - Fetcher: Your 'http.agent.name' value should be listed first in 'http.robots.agents' property.
+2014-11-26 10:34:48,464 INFO  fetcher.FetcherJob - FetcherJob: threads: 50
+2014-11-26 10:34:48,464 INFO  fetcher.FetcherJob - FetcherJob: parsing: false
+2014-11-26 10:34:48,464 INFO  fetcher.FetcherJob - FetcherJob: resuming: false
+2014-11-26 10:34:48,464 INFO  fetcher.FetcherJob - FetcherJob : timelimit set for : -1
+2014-11-26 10:34:48,838 ERROR protocol.RobotRulesParser - Agent we advertise (nutch) not listed first in 'http.robots.agents' property!
+2014-11-26 10:34:48,838 INFO  http.Http - http.proxy.host = null
+2014-11-26 10:34:48,838 INFO  http.Http - http.proxy.port = 8080
+2014-11-26 10:34:48,838 INFO  http.Http - http.timeout = 10000
+2014-11-26 10:34:48,838 INFO  http.Http - http.content.limit = 65536
+2014-11-26 10:34:48,838 INFO  http.Http - http.agent = nutch/Nutch-2.2.1
+2014-11-26 10:34:48,838 INFO  http.Http - http.accept.language = ja-jp, en-us,en-gb,en;q=0.7,*;q=0.3
+2014-11-26 10:34:48,838 INFO  http.Http - http.accept = text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2014-11-26 10:34:49,322 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-11-26 10:34:49,322 WARN  mapred.JobClient - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2014-11-26 10:34:49,524 INFO  mapreduce.GoraRecordReader - gora.buffer.read.limit = 10000
+2014-11-26 10:34:52,520 INFO  mapreduce.GoraRecordWriter - gora.buffer.write.limit = 10000
+2014-11-26 10:34:52,520 INFO  fetcher.FetcherJob - Using queue mode : byHost
+2014-11-26 10:34:52,520 INFO  fetcher.FetcherJob - Fetcher: threads: 50
+2014-11-26 10:34:52,535 INFO  fetcher.FetcherJob - QueueFeeder finished: total 1 records. Hit by time limit :0
+2014-11-26 10:34:52,552 INFO  fetcher.FetcherJob - -finishing thread FetcherThread1, activeThreads=1
+2014-11-26 10:34:52,552 INFO  fetcher.FetcherJob - -finishing thread FetcherThread2, activeThreads=1
+2014-11-26 10:34:52,552 INFO  fetcher.FetcherJob - fetching http://bbs.ledth.com/showtopic-47829.aspx (queue crawl delay=100ms)
+2014-11-26 10:34:52,552 ERROR protocol.RobotRulesParser - Agent we advertise (nutch) not listed first in 'http.robots.agents' property!
+2014-11-26 10:34:52,552 INFO  http.Http - http.proxy.host = null
+2014-11-26 10:34:52,552 INFO  http.Http - http.proxy.port = 8080
+2014-11-26 10:34:52,552 INFO  http.Http - http.timeout = 10000
+2014-11-26 10:34:52,552 INFO  http.Http - http.content.limit = 65536
+2014-11-26 10:34:52,552 INFO  http.Http - http.agent = nutch/Nutch-2.2.1
+2014-11-26 10:34:52,552 INFO  http.Http - http.accept.language = ja-jp, en-us,en-gb,en;q=0.7,*;q=0.3
+2014-11-26 10:34:52,552 INFO  http.Http - http.accept = text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2014-11-26 10:34:52,552 INFO  fetcher.FetcherJob - -finishing thread FetcherThread3, activeThreads=1
+2014-11-26 10:34:52,552 INFO  fetcher.FetcherJob - -finishing thread FetcherThread17, activeThreads=1
+2014-11-26 10:34:52,552 INFO  fetcher.FetcherJob - -finishing thread FetcherThread14, activeThreads=1
+2014-11-26 10:34:52,552 INFO  fetcher.FetcherJob - -finishing thread FetcherThread13, activeThreads=1
+2014-11-26 10:34:52,552 INFO  fetcher.FetcherJob - -finishing thread FetcherThread10, activeThreads=1
+2014-11-26 10:34:52,552 INFO  fetcher.FetcherJob - -finishing thread FetcherThread5, activeThreads=1
+2014-11-26 10:34:52,552 INFO  fetcher.FetcherJob - -finishing thread FetcherThread6, activeThreads=1
+2014-11-26 10:34:52,552 INFO  fetcher.FetcherJob - -finishing thread FetcherThread9, activeThreads=1
+2014-11-26 10:34:52,552 INFO  fetcher.FetcherJob - -finishing thread FetcherThread18, activeThreads=1
+2014-11-26 10:34:52,552 INFO  fetcher.FetcherJob - Fetcher: throughput threshold: -1
+2014-11-26 10:34:52,552 INFO  fetcher.FetcherJob - Fetcher: throughput threshold sequence: 5
+2014-11-26 10:34:52,552 INFO  fetcher.FetcherJob - -finishing thread FetcherThread22, activeThreads=1
+2014-11-26 10:34:52,552 INFO  fetcher.FetcherJob - -finishing thread FetcherThread21, activeThreads=1
+2014-11-26 10:34:52,552 INFO  fetcher.FetcherJob - -finishing thread FetcherThread4, activeThreads=1
+2014-11-26 10:34:52,552 INFO  fetcher.FetcherJob - -finishing thread FetcherThread49, activeThreads=1
+2014-11-26 10:34:52,552 INFO  fetcher.FetcherJob - -finishing thread FetcherThread25, activeThreads=1
+2014-11-26 10:34:52,552 INFO  fetcher.FetcherJob - -finishing thread FetcherThread46, activeThreads=1
+2014-11-26 10:34:52,552 INFO  fetcher.FetcherJob - -finishing thread FetcherThread45, activeThreads=1
+2014-11-26 10:34:52,552 INFO  fetcher.FetcherJob - -finishing thread FetcherThread42, activeThreads=1
+2014-11-26 10:34:52,567 INFO  fetcher.FetcherJob - -finishing thread FetcherThread41, activeThreads=1
+2014-11-26 10:34:52,567 INFO  fetcher.FetcherJob - -finishing thread FetcherThread38, activeThreads=2
+2014-11-26 10:34:52,567 INFO  fetcher.FetcherJob - -finishing thread FetcherThread34, activeThreads=1
+2014-11-26 10:34:52,567 INFO  fetcher.FetcherJob - -finishing thread FetcherThread33, activeThreads=1
+2014-11-26 10:34:52,567 INFO  fetcher.FetcherJob - -finishing thread FetcherThread37, activeThreads=1
+2014-11-26 10:34:52,567 INFO  fetcher.FetcherJob - -finishing thread FetcherThread30, activeThreads=1
+2014-11-26 10:34:52,567 INFO  fetcher.FetcherJob - -finishing thread FetcherThread44, activeThreads=1
+2014-11-26 10:34:52,567 INFO  fetcher.FetcherJob - -finishing thread FetcherThread43, activeThreads=1
+2014-11-26 10:34:52,567 INFO  fetcher.FetcherJob - -finishing thread FetcherThread47, activeThreads=1
+2014-11-26 10:34:52,567 INFO  fetcher.FetcherJob - -finishing thread FetcherThread40, activeThreads=1
+2014-11-26 10:34:52,567 INFO  fetcher.FetcherJob - -finishing thread FetcherThread39, activeThreads=1
+2014-11-26 10:34:52,567 INFO  fetcher.FetcherJob - -finishing thread FetcherThread36, activeThreads=1
+2014-11-26 10:34:52,567 INFO  fetcher.FetcherJob - -finishing thread FetcherThread48, activeThreads=1
+2014-11-26 10:34:52,567 INFO  fetcher.FetcherJob - -finishing thread FetcherThread35, activeThreads=1
+2014-11-26 10:34:52,567 INFO  fetcher.FetcherJob - -finishing thread FetcherThread32, activeThreads=1
+2014-11-26 10:34:52,567 INFO  fetcher.FetcherJob - -finishing thread FetcherThread26, activeThreads=1
+2014-11-26 10:34:52,567 INFO  fetcher.FetcherJob - -finishing thread FetcherThread31, activeThreads=1
+2014-11-26 10:34:52,567 INFO  fetcher.FetcherJob - -finishing thread FetcherThread29, activeThreads=2
+2014-11-26 10:34:52,567 INFO  fetcher.FetcherJob - -finishing thread FetcherThread28, activeThreads=1
+2014-11-26 10:34:52,567 INFO  fetcher.FetcherJob - -finishing thread FetcherThread27, activeThreads=1
+2014-11-26 10:34:52,567 INFO  fetcher.FetcherJob - -finishing thread FetcherThread24, activeThreads=1
+2014-11-26 10:34:52,567 INFO  fetcher.FetcherJob - -finishing thread FetcherThread23, activeThreads=1
+2014-11-26 10:34:52,567 INFO  fetcher.FetcherJob - -finishing thread FetcherThread20, activeThreads=1
+2014-11-26 10:34:52,567 INFO  fetcher.FetcherJob - -finishing thread FetcherThread19, activeThreads=1
+2014-11-26 10:34:52,567 INFO  fetcher.FetcherJob - -finishing thread FetcherThread16, activeThreads=1
+2014-11-26 10:34:52,567 INFO  fetcher.FetcherJob - -finishing thread FetcherThread15, activeThreads=1
+2014-11-26 10:34:52,567 INFO  fetcher.FetcherJob - -finishing thread FetcherThread11, activeThreads=1
+2014-11-26 10:34:52,567 INFO  fetcher.FetcherJob - -finishing thread FetcherThread8, activeThreads=1
+2014-11-26 10:34:52,567 INFO  fetcher.FetcherJob - -finishing thread FetcherThread7, activeThreads=1
+2014-11-26 10:34:52,567 INFO  fetcher.FetcherJob - -finishing thread FetcherThread12, activeThreads=1
+2014-11-26 10:34:53,145 INFO  fetcher.FetcherJob - -finishing thread FetcherThread0, activeThreads=0
+2014-11-26 10:34:57,559 INFO  fetcher.FetcherJob - 0/0 spinwaiting/active, 1 pages, 0 errors, 0.2 0 pages/s, 102 102 kb/s, 0 URLs in 0 queues
+2014-11-26 10:34:57,559 INFO  fetcher.FetcherJob - -activeThreads=0
+2014-11-26 10:34:58,496 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
+2014-11-26 10:34:58,559 INFO  fetcher.FetcherJob - FetcherJob: done
+2014-11-26 10:35:10,899 INFO  parse.ParserJob - ParserJob: starting
+2014-11-26 10:35:10,899 INFO  parse.ParserJob - ParserJob: resuming:	false
+2014-11-26 10:35:10,899 INFO  parse.ParserJob - ParserJob: forced reparse:	false
+2014-11-26 10:35:10,899 INFO  parse.ParserJob - ParserJob: parsing all
+2014-11-26 10:35:11,383 INFO  crawl.SignatureFactory - Using Signature impl: org.apache.nutch.crawl.MD5Signature
+2014-11-26 10:35:11,882 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-11-26 10:35:11,882 WARN  mapred.JobClient - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2014-11-26 10:35:12,054 INFO  mapreduce.GoraRecordReader - gora.buffer.read.limit = 10000
+2014-11-26 10:35:12,069 INFO  mapreduce.GoraRecordWriter - gora.buffer.write.limit = 10000
+2014-11-26 10:35:12,085 INFO  crawl.SignatureFactory - Using Signature impl: org.apache.nutch.crawl.MD5Signature
+2014-11-26 10:35:12,163 INFO  parse.ParserJob - Parsing http://bbs.ledth.com/showtopic-47829.aspx
+2014-11-26 10:35:12,601 INFO  dao.SDUtils - url:jdbc:postgresql://192.168.0.144:5432/postgres
+2014-11-26 10:35:12,601 INFO  dao.SDUtils - usernamepostgres
+2014-11-26 10:35:12,601 INFO  dao.SDUtils - passwd123456
+2014-11-26 10:35:13,022 INFO  dao.SDUtils - url:jdbc:postgresql://192.168.0.144:5432/postgres
+2014-11-26 10:35:13,022 INFO  dao.SDUtils - usernamepostgres
+2014-11-26 10:35:13,022 INFO  dao.SDUtils - passwd123456
+2014-11-26 10:35:13,147 INFO  mortbay.log - Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2014-11-26 10:35:13,147 INFO  mortbay.log - 2014-11-26 10:35:13:入库成功http://bbs.ledth.com/showtopic-47829.aspx
+2014-11-26 10:35:13,162 INFO  regex.RegexURLNormalizer - can't find rules for scope 'outlink', using default
+2014-11-26 10:35:15,003 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
+2014-11-26 10:35:16,017 INFO  parse.ParserJob - ParserJob: success
+2014-11-26 10:35:47,282 INFO  crawl.DbUpdaterJob - DbUpdaterJob: starting
+2014-11-26 10:35:47,875 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-11-26 10:35:47,875 WARN  mapred.JobClient - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2014-11-26 10:35:48,031 INFO  mapreduce.GoraRecordReader - gora.buffer.read.limit = 10000
+2014-11-26 10:35:51,041 INFO  mapreduce.GoraRecordWriter - gora.buffer.write.limit = 10000
+2014-11-26 10:35:51,041 INFO  crawl.FetchScheduleFactory - Using FetchSchedule impl: org.apache.nutch.crawl.DefaultFetchSchedule
+2014-11-26 10:35:51,041 INFO  crawl.AbstractFetchSchedule - defaultInterval=2592000
+2014-11-26 10:35:51,041 INFO  crawl.AbstractFetchSchedule - maxInterval=7776000
+2014-11-26 10:35:54,005 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
+2014-11-26 10:35:54,052 INFO  crawl.DbUpdaterJob - DbUpdaterJob: done
+2014-11-26 10:37:03,901 INFO  crawl.DbUpdaterJob - DbUpdaterJob: starting
+2014-11-26 10:37:04,510 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-11-26 10:37:04,510 WARN  mapred.JobClient - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2014-11-26 10:37:04,666 INFO  mapreduce.GoraRecordReader - gora.buffer.read.limit = 10000
+2014-11-26 10:37:07,677 INFO  mapreduce.GoraRecordWriter - gora.buffer.write.limit = 10000
+2014-11-26 10:37:07,677 INFO  crawl.FetchScheduleFactory - Using FetchSchedule impl: org.apache.nutch.crawl.DefaultFetchSchedule
+2014-11-26 10:37:07,677 INFO  crawl.AbstractFetchSchedule - defaultInterval=2592000
+2014-11-26 10:37:07,677 INFO  crawl.AbstractFetchSchedule - maxInterval=7776000
+2014-11-26 10:37:10,641 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
+2014-11-26 10:37:10,687 INFO  crawl.DbUpdaterJob - DbUpdaterJob: done
